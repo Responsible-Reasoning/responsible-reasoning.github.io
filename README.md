@@ -26,10 +26,10 @@ bundle exec jekyll serve   # → http://localhost:4000
 
 ## Deploy
 
-Push to `main`. The [deploy workflow](.github/workflows/deploy.yml) builds the site and
-publishes it to the `gh-pages` branch; set **Settings → Pages** to serve from `gh-pages`
-(one-time). al-folio uses custom plugins, so it must be built by Actions rather than GitHub
-Pages' built-in Jekyll.
+Push to `main`. The [deploy workflow](.github/workflows/deploy.yml) builds the site with
+Bundler and publishes it via GitHub Pages. One-time setup: set **Settings → Pages → Source**
+to **GitHub Actions**. al-folio uses custom plugins, so it must be built by this workflow
+rather than GitHub Pages' built-in Jekyll (whose theme allowlist excludes `al_folio_core`).
 
 ## License
 
