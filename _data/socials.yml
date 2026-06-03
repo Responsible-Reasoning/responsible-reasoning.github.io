@@ -1,0 +1,5 @@
+# Social links shown in the footer / about page.
+# See https://github.com/george-gca/jekyll-socials for all supported keys.
+email: felix.divo@tu-darmstadt.de # corresponding organizer
+github_username: Responsible-Reasoning # the workshop GitHub organization
+rss_icon: false
