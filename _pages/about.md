@@ -2,7 +2,7 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <b>The First Workshop on Responsible Reasoning @ NeurIPS 2026</b><br>Bridging causal inference, neuro-symbolic methods, and interpretability.
+subtitle: <b>The First Workshop on Responsible Reasoning in the Wild</b><br>Bridging causal inference, neuro-symbolic methods, and interpretability.
 
 profile:
   align: right
@@ -26,9 +26,9 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
-> **Join the effort to challenge today's boundaries of associative learning, to pave the way for AI that can be trusted to reason responsibly.**
+> **Join the effort to challenge today's boundaries of associative learning, paving the way for responsible reasoning in the wild.**
 
-The **First Workshop on Responsible Reasoning** will be held as an in-person workshop at the **Conference on Neural Information Processing Systems (NeurIPS) 2026**. It brings together researchers working at the intersection of deep learning, causal inference, symbolic reasoning, and interpretability, to chart concrete paths toward AI systems that move beyond pattern-matching toward something closer to understanding — with transparent reasoning, principled generalization, and deployment in the wild that can be trusted.
+The **First Workshop on Responsible Reasoning in the Wild** will be held as an in-person workshop at the **Conference on Neural Information Processing Systems (NeurIPS) 2026**. It brings together researchers working at the intersection of deep learning, causal inference, symbolic reasoning, and interpretability, to chart concrete paths toward AI systems that move beyond pattern-matching toward something closer to understanding — with transparent reasoning, principled generalization, and deployment in the wild that can be trusted.
 
 We invite contributions through our [Call for Papers](/cfp/), and we look forward to welcoming you at NeurIPS 2026.
 

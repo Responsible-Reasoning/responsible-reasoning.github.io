@@ -1,1 +1,0 @@
-**Felix Friedrich** is a researcher at Black Forest Labs working on responsibility and safety in large generative models. His work studies how to make powerful generative systems more trustworthy — addressing safety, alignment, and the responsible deployment of generative AI.

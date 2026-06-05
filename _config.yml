@@ -9,10 +9,10 @@ last_name:
 contact_note: >
   General enquiries: <a href="mailto:felix.divo@cs.tu-darmstadt.de">felix.divo@cs.tu-darmstadt.de</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  The First Workshop on Responsible Reasoning @ NeurIPS 2026. Bridging causal inference,
-  neuro-symbolic methods, and mechanistic interpretability toward AI that reasons responsibly.
+  Join the effort to challenge today's boundaries of associative learning,
+  paving the way for responsible reasoning in the wild.
 footer_text: >
-  The First Workshop on Responsible Reasoning @ NeurIPS 2026.
+  The First Workshop on Responsible Reasoning in the Wild.
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
 keywords: responsible reasoning, NeurIPS 2026, causal inference, neuro-symbolic, interpretability, trustworthy ML, workshop

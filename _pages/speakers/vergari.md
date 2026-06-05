@@ -1,1 +1,0 @@
-**Antonio Vergari** is a researcher at the University of Edinburgh working on tractable probabilistic modeling, probabilistic circuits, and neuro-symbolic AI. His work develops models and inference that combine the expressiveness of deep learning with the guarantees and structure of symbolic and probabilistic reasoning.

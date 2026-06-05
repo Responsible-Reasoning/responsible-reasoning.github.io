@@ -1,1 +1,0 @@
-**Daria Stepanova** is a researcher at the Bosch Center for Artificial Intelligence, working on neuro-symbolic AI, knowledge graphs, and rule learning. Her research connects learned representations with structured, symbolic knowledge to support reasoning that is both scalable and interpretable.

@@ -2,12 +2,12 @@
 layout: page
 permalink: /cfp/
 title: Call for Papers
-description: Submit your work to the First Workshop on Responsible Reasoning @ NeurIPS 2026.
+description: Submit your work to the First Workshop on Responsible Reasoning in the Wild.
 nav: true
 nav_order: 2
 ---
 
-The **First Workshop on Responsible Reasoning** invites submissions that move beyond purely associative learning toward AI systems that can reason about interventions, counterfactuals, causal structure, and abstract relations — and whose behavior we can inspect, constrain, and trust.
+The **First Workshop on Responsible Reasoning in the Wild** invites submissions that move beyond purely associative learning toward AI systems that can reason about interventions, counterfactuals, causal structure, and abstract relations — and whose behavior we can inspect, constrain, and trust.
 
 ### Important Dates
 
@@ -44,7 +44,6 @@ Topics of interest include, but are not limited to:
 - **Trust & Safety in AI & ML.**
   - Symbolic constraints and guarantees for large models
   - Neuro-symbolic safeguards and verification for generative AI
-  - Interpretability by construction — and by extraction: recovering symbolic structure from trained networks, incl. mechanistic interpretability
   - Neuro-symbolic agents: auditable modeling, planning, and interfaces
   - Human-in-the-loop oversight through symbolic interfaces
 - **Responsible Reasoning in the Wild.**
