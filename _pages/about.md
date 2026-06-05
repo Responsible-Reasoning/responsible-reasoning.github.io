@@ -2,7 +2,6 @@
 layout: about
 title: Home
 permalink: /
-subtitle: <b>The First Workshop on Responsible Reasoning in the Wild</b><br>Bridging causal inference, neuro-symbolic methods, and interpretability.
 
 profile:
   align: right
