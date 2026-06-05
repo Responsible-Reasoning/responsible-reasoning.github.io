@@ -14,19 +14,19 @@ profiles:
     more_info: >
       <p>Princeton University, USA</p>
   - align: left
-    image: placeholder.png
+    image: people/dstavens.jpg
     content: speakers/dstavens.md
     image_circular: false
     more_info: >
       <p>Anviora Inc.</p>
   - align: right
-    image: placeholder.png
+    image: people/avergari.jpg
     content: speakers/avergari.md
     image_circular: false
     more_info: >
       <p>University of Edinburgh, UK</p>
   - align: left
-    image: placeholder.png
+    image: people/dstepanova.jpg
     content: speakers/dstepanova.md
     image_circular: false
     more_info: >
@@ -38,7 +38,7 @@ profiles:
     more_info: >
       <p>Stevens Institute of Technology, USA</p>
   - align: left
-    image: placeholder.png
+    image: people/ffriedrich.jpg
     content: speakers/ffriedrich.md
     image_circular: false
     more_info: >
