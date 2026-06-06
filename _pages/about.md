@@ -51,7 +51,6 @@ Closing this gap is not merely a matter of more data or larger models; it requir
 
 </div>
 
-All deadlines are Anywhere on Earth (AoE).
 
 ### Schedule
 

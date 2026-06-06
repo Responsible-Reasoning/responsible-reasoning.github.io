@@ -2,7 +2,6 @@
 layout: profiles
 permalink: /speakers/
 title: Speakers
-description: Confirmed invited speakers for the First Workshop on Responsible Reasoning in the Wild. More speakers will be announced as they are confirmed.
 nav: true
 nav_order: 3
 

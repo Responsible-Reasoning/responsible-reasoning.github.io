@@ -2,7 +2,6 @@
 layout: page
 permalink: /cfp/
 title: Call for Papers
-description: Submit your work to the First Workshop on Responsible Reasoning in the Wild.
 nav: true
 nav_order: 2
 ---
@@ -17,7 +16,6 @@ The **First Workshop on Responsible Reasoning in the Wild** invites submissions 
 | **Acceptance notification**   | **29 September 2026** (AoE)        |
 | **Workshop day**              | NeurIPS 2026 — date & location TBA |
 
-All deadlines are Anywhere on Earth (AoE).
 
 ### Submission Tracks
 
@@ -29,7 +27,7 @@ Novel methods for inference and learning in neuro-symbolic systems; integration 
 
 #### (2) Industry track papers
 
-Contributions demonstrating responsible reasoning in real-world settings. We seek work that goes beyond proof-of-concept: papers that show where causal or neuro-symbolic methods add genuine value in production, what engineering and scaling challenges remain, and what the path toward broader adoption looks like. **Negative results and honest accounts of limitations are explicitly encouraged.**
+Contributions demonstrating responsible reasoning in real-world settings. We seek work that goes beyond proof-of-concept: papers that show where causal or neuro-symbolic methods add genuine value in production, what engineering and scaling challenges remain, and what the path toward broader adoption looks like. Negative results and honest accounts of limitations are explicitly encouraged.
 
 ### Topics
 
@@ -57,9 +55,7 @@ Topics of interest include, but are not limited to:
 
 ### Review and Presentation
 
-All submissions will be reviewed for fit and quality. Accepted papers will be presented as posters or contributed talks, across two interactive poster sessions and dedicated discussion breaks. We anticipate approximately 50 accepted contributions and around 200 attendees.
-
-We are committed to an inclusive submission and review process, and will provide dedicated time during poster sessions for mentorship and informal exchange, especially for early-career researchers.
+All submissions will be reviewed for fit and quality. We are committed to an inclusive submission and review process, and will provide dedicated time during poster sessions for mentorship and informal exchange, especially for early-career researchers.
 
 ### Submit
 

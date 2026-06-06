@@ -2,7 +2,6 @@
 layout: profiles
 permalink: /organizers/
 title: Organizers
-description: The organizing committee of the First Workshop on Responsible Reasoning in the Wild.
 nav: true
 nav_order: 4
 
