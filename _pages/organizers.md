@@ -20,7 +20,7 @@ profiles:
     more_info: >
       <p>TU Darmstadt, Germany</p>
   - align: right
-    image: placeholder.png
+    image: people/zzahedi.jpg
     content: organizers/zzahedi.md
     image_circular: false
     more_info: >
@@ -32,7 +32,7 @@ profiles:
     more_info: >
       <p>UNSW Sydney, Australia</p>
   - align: right
-    image: placeholder.png
+    image: people/kmohan.jpg
     content: organizers/kmohan.md
     image_circular: false
     more_info: >
