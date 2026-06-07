@@ -7,23 +7,23 @@ nav_order: 3
 
 profiles:
   - align: right
-    image: placeholder.png
-    content: speakers/tgriffiths.md
+    image: people/jpearl.jpg
+    content: speakers/jpearl.md
     image_circular: false
     more_info: >
-      <p>Princeton University, USA</p>
+      <p>University of California, Los Angeles, USA</p>
   - align: left
     image: people/dstavens.jpg
     content: speakers/dstavens.md
     image_circular: false
     more_info: >
-      <p>Anviora Inc.</p>
+      <p>co-founder Waymo / Udacity / Nines</p>
   - align: right
-    image: people/avergari.jpg
-    content: speakers/avergari.md
+    image: people/bchristian.jpg
+    content: speakers/bchristian.md
     image_circular: false
     more_info: >
-      <p>University of Edinburgh, UK</p>
+      <p>University of Oxford, UK</p>
   - align: left
     image: people/dstepanova.jpg
     content: speakers/dstepanova.md
@@ -31,11 +31,11 @@ profiles:
     more_info: >
       <p>Bosch Center for Artificial Intelligence, Germany</p>
   - align: right
-    image: placeholder.png
-    content: speakers/skleinberg.md
+    image: people/avergari.jpg
+    content: speakers/avergari.md
     image_circular: false
     more_info: >
-      <p>Stevens Institute of Technology, USA</p>
+      <p>University of Edinburgh, UK</p>
   - align: left
     image: people/ffriedrich.jpg
     content: speakers/ffriedrich.md
