@@ -10,12 +10,33 @@ The **First Workshop on Responsible Reasoning in the Wild** invites submissions 
 
 ### Important Dates
 
-| Milestone                     | Date                          |
-| :---------------------------- | :---------------------------- |
-| **Submissions open**          | **15 December 2026**          |
-| **Paper submission deadline** | **1 February 2027** (AoE)     |
-| **Acceptance notification**   | **26 February 2027** (AoE)    |
-| **Workshop day**              | **ICLR 2027** — San Francisco |
+<style>
+  td.countdown {
+    color: var(--global-text-color-light);
+    font-variant-numeric: tabular-nums;
+    white-space: nowrap;
+  }
+</style>
+
+<table>
+  <thead>
+    <tr><th style="text-align: left">Milestone</th><th style="text-align: left">Date</th><th style="text-align: left">Countdown</th></tr>
+  </thead>
+  <tbody>
+    <tr><td><strong>Submissions open</strong></td><td><strong>15 December 2026</strong></td><td class="countdown" data-until="2026-12-15T00:00:00Z"></td></tr>
+    <tr><td><strong>Paper submission deadline</strong></td><td><strong>1 February 2027</strong> (AoE)</td><td class="countdown" data-until="2027-02-02T11:59:00Z"></td></tr>
+    <tr><td><strong>Acceptance notification</strong></td><td><strong>26 February 2027</strong> (AoE)</td><td class="countdown" data-until="2027-02-27T11:59:00Z"></td></tr>
+    <tr><td><strong>Workshop day</strong></td><td><strong>ICLR 2027</strong> — San Francisco</td><td class="countdown"></td></tr>
+  </tbody>
+</table>
+
+<script>
+  document.querySelectorAll("td.countdown[data-until]").forEach(function (cell) {
+    var ms = new Date(cell.dataset.until) - Date.now();
+    var days = Math.ceil(ms / 86400000);
+    cell.textContent = ms < 0 ? "passed" : days <= 1 ? "today" : "in " + days + " days";
+  });
+</script>
 
 ### Submission Tracks
 
