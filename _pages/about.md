@@ -65,27 +65,87 @@ The workshop aims to produce progress on four concrete problems:
 
 The workshop runs for a full day and features an opening keynote, invited talks, contributed talks, and two poster sessions, followed by an open panel discussion. Talk titles and the full program will be posted here as they are confirmed.
 
-<div markdown="1">
+<style>
+  .schedule {
+    margin: 1.25rem 0 2rem;
+  }
+  .schedule .schedule-part {
+    margin: 0 0 0.6rem;
+    padding-bottom: 0.35rem;
+    border-bottom: 1px solid var(--global-divider-color);
+    font-size: 0.78rem;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--global-text-color-light);
+  }
+  .schedule .schedule-part:not(:first-child) {
+    margin-top: 2rem;
+  }
+  .schedule-row {
+    display: grid;
+    grid-template-columns: 8.5rem 1fr;
+    column-gap: 1.25rem;
+    align-items: baseline;
+    padding: 0.45rem 0 0.45rem 0.85rem;
+    border-left: 3px solid var(--global-divider-color);
+  }
+  .schedule-row + .schedule-row {
+    margin-top: 0.3rem;
+  }
+  .schedule-time {
+    font-variant-numeric: tabular-nums;
+    font-size: 0.92rem;
+    color: var(--global-text-color-light);
+    white-space: nowrap;
+  }
+  .schedule-session {
+    font-weight: 600;
+  }
+  .schedule-speaker {
+    display: block;
+    font-weight: 400;
+    font-size: 0.92rem;
+    color: var(--global-text-color-light);
+  }
+  .schedule-row.is-feature {
+    border-left-color: var(--global-theme-color);
+  }
+  .schedule-row.is-quiet {
+    border-left-color: transparent;
+  }
+  .schedule-row.is-quiet .schedule-session {
+    font-weight: 400;
+    color: var(--global-text-color-light);
+  }
+  @media (max-width: 576px) {
+    .schedule-row {
+      grid-template-columns: 1fr;
+      row-gap: 0.1rem;
+    }
+  }
+</style>
 
-|     Time      | Session                                                            |
-| :-----------: | :----------------------------------------------------------------- |
-| 09:00 – 09:15 | **Welcome & Opening Remarks**                                       |
-| 09:15 – 09:45 | **Opening Keynote**                                                 |
-| 09:45 – 10:15 | **Invited Talk 1**                                                  |
-| 10:15 – 10:25 | **Contributed Talk 1**                                              |
-| 10:25 – 10:35 | **Contributed Talk 2**                                              |
-| 10:35 – 12:00 | **Poster Session 1 & Coffee Break**                                 |
-| 12:00 – 13:00 | **Lunch Break**                                                     |
-| 13:00 – 13:30 | **Invited Talk 2**                                                  |
-| 13:30 – 13:40 | **Contributed Talk 3**                                              |
-| 13:40 – 13:50 | **Contributed Talk 4**                                              |
-| 13:50 – 15:30 | **Poster Session 2 & Coffee Break**                                 |
-| 15:30 – 16:00 | **Invited Talk 3**                                                  |
-| 16:00 – 16:30 | **Invited Talk 4**                                                  |
-| 16:30 – 16:45 | **Break**                                                           |
-| 16:45 – 17:45 | **Panel Discussion: "Technical Gaps vs. Responsibility Gaps"**      |
-| 17:45 – 18:00 | **Closing Remarks**                                                 |
+<div class="schedule">
+  <p class="schedule-part">Morning</p>
+  <div class="schedule-row is-quiet"><span class="schedule-time">09:00 – 09:15</span><span class="schedule-session">Welcome &amp; Opening Remarks</span></div>
+  <div class="schedule-row is-feature"><span class="schedule-time">09:15 – 09:45</span><span class="schedule-session">Opening Keynote<span class="schedule-speaker">Judea Pearl — University of California, Los Angeles</span></span></div>
+  <div class="schedule-row is-feature"><span class="schedule-time">09:45 – 10:15</span><span class="schedule-session">Invited Talk 1</span></div>
+  <div class="schedule-row"><span class="schedule-time">10:15 – 10:25</span><span class="schedule-session">Contributed Talk 1</span></div>
+  <div class="schedule-row"><span class="schedule-time">10:25 – 10:35</span><span class="schedule-session">Contributed Talk 2</span></div>
+  <div class="schedule-row"><span class="schedule-time">10:35 – 12:00</span><span class="schedule-session">Poster Session 1 &amp; Coffee Break</span></div>
 
+  <p class="schedule-part">Afternoon</p>
+  <div class="schedule-row is-quiet"><span class="schedule-time">12:00 – 13:00</span><span class="schedule-session">Lunch Break</span></div>
+  <div class="schedule-row is-feature"><span class="schedule-time">13:00 – 13:30</span><span class="schedule-session">Invited Talk 2</span></div>
+  <div class="schedule-row"><span class="schedule-time">13:30 – 13:40</span><span class="schedule-session">Contributed Talk 3</span></div>
+  <div class="schedule-row"><span class="schedule-time">13:40 – 13:50</span><span class="schedule-session">Contributed Talk 4</span></div>
+  <div class="schedule-row"><span class="schedule-time">13:50 – 15:30</span><span class="schedule-session">Poster Session 2 &amp; Coffee Break</span></div>
+  <div class="schedule-row is-feature"><span class="schedule-time">15:30 – 16:00</span><span class="schedule-session">Invited Talk 3</span></div>
+  <div class="schedule-row is-feature"><span class="schedule-time">16:00 – 16:30</span><span class="schedule-session">Invited Talk 4</span></div>
+  <div class="schedule-row is-quiet"><span class="schedule-time">16:30 – 16:45</span><span class="schedule-session">Break</span></div>
+  <div class="schedule-row is-feature"><span class="schedule-time">16:45 – 17:45</span><span class="schedule-session">Panel Discussion<span class="schedule-speaker">“Technical Gaps vs. Responsibility Gaps”</span></span></div>
+  <div class="schedule-row is-quiet"><span class="schedule-time">17:45 – 18:00</span><span class="schedule-session">Closing Remarks</span></div>
 </div>
 
 ### Virtual Access to Materials
