@@ -9,12 +9,12 @@ last_name: The Organizers
 contact_note: >
   General enquiries: <a href="mailto:felix.divo@tu-darmstadt.de">felix.divo@tu-darmstadt.de</a>
 description: > # the ">" symbol means to ignore newlines until "footer_text:"
-  Join the effort to challenge today's boundaries of associative learning,
-  paving the way for responsible reasoning in the wild.
+  Join the effort towards responsible reasoning architectures,
+  pushing the frontiers of trustworthy AI in the wild.
 footer_text: >
   Powered by <a href="https://jekyllrb.com/" target="_blank">Jekyll</a> with <a href="https://github.com/alshedivat/al-folio">al-folio</a> theme.
   Hosted by <a href="https://pages.github.com/" target="_blank">GitHub Pages</a>.
-keywords: responsible reasoning, NeurIPS 2026, causal inference, neuro-symbolic, interpretability, trustworthy ML, workshop
+keywords: responsible reasoning, ICLR 2027, causal inference, neuro-symbolic, interpretability, trustworthy ML, workshop
 lang: en # the language of your site (for example: en, fr, cn, ru, etc.)
 icon: logo.png # the emoji used as the favicon (alternatively, provide image name in /assets/img/)
 

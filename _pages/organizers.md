@@ -44,4 +44,4 @@ profiles:
       <p>TU Eindhoven, Netherlands</p>
 ---
 
-The First Workshop on Responsible Reasoning in the Wild is organized by researchers spanning neuro-symbolic methods, causal learning and inference, time series, and robotics, across institutions in Germany, Australia, the Netherlands, and the United States.
+The First Workshop on Responsible Reasoning in the Wild is organized by researchers spanning neuro-symbolic methods for temporal systems, trustworthy autonomous systems and human-machine interfaces, and causal learning and inference, across institutions in Germany, Australia, the Netherlands, and the United States.

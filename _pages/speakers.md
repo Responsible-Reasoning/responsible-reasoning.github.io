@@ -11,6 +11,7 @@ profiles:
     content: speakers/jpearl.md
     image_circular: false
     more_info: >
+      <p><b>Opening Keynote</b></p>
       <p>University of California, Los Angeles, USA</p>
   - align: left
     image: people/dstavens.jpg
@@ -31,12 +32,6 @@ profiles:
     more_info: >
       <p>Bosch Center for Artificial Intelligence, Germany</p>
   - align: right
-    image: people/avergari.jpg
-    content: speakers/avergari.md
-    image_circular: false
-    more_info: >
-      <p>University of Edinburgh, UK</p>
-  - align: left
     image: people/ffriedrich.jpg
     content: speakers/ffriedrich.md
     image_circular: false

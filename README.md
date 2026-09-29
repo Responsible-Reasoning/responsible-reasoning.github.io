@@ -1,6 +1,6 @@
 # Responsible Reasoning — Workshop Website
 
-Website for **The First Workshop on Responsible Reasoning @ NeurIPS 2026**
+Website for **The First Workshop on Responsible Reasoning in the Wild @ ICLR 2027**
 (<https://responsible-reasoning.github.io>).
 
 Built with [Jekyll](https://jekyllrb.com/) + the [al-folio](https://github.com/alshedivat/al-folio)
