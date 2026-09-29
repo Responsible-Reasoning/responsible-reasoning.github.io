@@ -68,6 +68,20 @@ The workshop runs for a full day and features an opening keynote, invited talks,
 <style>
   .schedule {
     margin: 1.25rem 0 2rem;
+    --sched-contrib-border: #8ab4d8;
+    --sched-contrib-bg: rgba(138, 180, 216, 0.16);
+    --sched-poster-border: #93c59b;
+    --sched-poster-bg: rgba(147, 197, 155, 0.18);
+    --sched-quiet-border: #dcc49c;
+    --sched-quiet-bg: rgba(220, 196, 156, 0.14);
+  }
+  html[data-theme="dark"] .schedule {
+    --sched-contrib-border: #56789a;
+    --sched-contrib-bg: rgba(138, 180, 216, 0.1);
+    --sched-poster-border: #5d8a66;
+    --sched-poster-bg: rgba(147, 197, 155, 0.1);
+    --sched-quiet-border: #8f7d58;
+    --sched-quiet-bg: rgba(220, 196, 156, 0.08);
   }
   .schedule .schedule-part {
     margin: 0 0 0.6rem;
@@ -87,8 +101,9 @@ The workshop runs for a full day and features an opening keynote, invited talks,
     grid-template-columns: 8.5rem 1fr;
     column-gap: 1.25rem;
     align-items: baseline;
-    padding: 0.45rem 0 0.45rem 0.85rem;
+    padding: 0.45rem 0.85rem;
     border-left: 3px solid var(--global-divider-color);
+    border-radius: 0 6px 6px 0;
   }
   .schedule-row + .schedule-row {
     margin-top: 0.3rem;
@@ -111,8 +126,17 @@ The workshop runs for a full day and features an opening keynote, invited talks,
   .schedule-row.is-feature {
     border-left-color: var(--global-theme-color);
   }
+  .schedule-row.is-contrib {
+    border-left-color: var(--sched-contrib-border);
+    background: var(--sched-contrib-bg);
+  }
+  .schedule-row.is-poster {
+    border-left-color: var(--sched-poster-border);
+    background: var(--sched-poster-bg);
+  }
   .schedule-row.is-quiet {
-    border-left-color: transparent;
+    border-left-color: var(--sched-quiet-border);
+    background: var(--sched-quiet-bg);
   }
   .schedule-row.is-quiet .schedule-session {
     font-weight: 400;
@@ -131,16 +155,16 @@ The workshop runs for a full day and features an opening keynote, invited talks,
   <div class="schedule-row is-quiet"><span class="schedule-time">09:00 – 09:15</span><span class="schedule-session">Welcome &amp; Opening Remarks</span></div>
   <div class="schedule-row is-feature"><span class="schedule-time">09:15 – 09:45</span><span class="schedule-session">Opening Keynote<span class="schedule-speaker">Judea Pearl — University of California, Los Angeles</span></span></div>
   <div class="schedule-row is-feature"><span class="schedule-time">09:45 – 10:15</span><span class="schedule-session">Invited Talk 1</span></div>
-  <div class="schedule-row"><span class="schedule-time">10:15 – 10:25</span><span class="schedule-session">Contributed Talk 1</span></div>
-  <div class="schedule-row"><span class="schedule-time">10:25 – 10:35</span><span class="schedule-session">Contributed Talk 2</span></div>
-  <div class="schedule-row"><span class="schedule-time">10:35 – 12:00</span><span class="schedule-session">Poster Session 1 &amp; Coffee Break</span></div>
+  <div class="schedule-row is-contrib"><span class="schedule-time">10:15 – 10:25</span><span class="schedule-session">Contributed Talk 1</span></div>
+  <div class="schedule-row is-contrib"><span class="schedule-time">10:25 – 10:35</span><span class="schedule-session">Contributed Talk 2</span></div>
+  <div class="schedule-row is-poster"><span class="schedule-time">10:35 – 12:00</span><span class="schedule-session">Poster Session 1 &amp; Coffee Break</span></div>
 
   <p class="schedule-part">Afternoon</p>
   <div class="schedule-row is-quiet"><span class="schedule-time">12:00 – 13:00</span><span class="schedule-session">Lunch Break</span></div>
   <div class="schedule-row is-feature"><span class="schedule-time">13:00 – 13:30</span><span class="schedule-session">Invited Talk 2</span></div>
-  <div class="schedule-row"><span class="schedule-time">13:30 – 13:40</span><span class="schedule-session">Contributed Talk 3</span></div>
-  <div class="schedule-row"><span class="schedule-time">13:40 – 13:50</span><span class="schedule-session">Contributed Talk 4</span></div>
-  <div class="schedule-row"><span class="schedule-time">13:50 – 15:30</span><span class="schedule-session">Poster Session 2 &amp; Coffee Break</span></div>
+  <div class="schedule-row is-contrib"><span class="schedule-time">13:30 – 13:40</span><span class="schedule-session">Contributed Talk 3</span></div>
+  <div class="schedule-row is-contrib"><span class="schedule-time">13:40 – 13:50</span><span class="schedule-session">Contributed Talk 4</span></div>
+  <div class="schedule-row is-poster"><span class="schedule-time">13:50 – 15:30</span><span class="schedule-session">Poster Session 2 &amp; Coffee Break</span></div>
   <div class="schedule-row is-feature"><span class="schedule-time">15:30 – 16:00</span><span class="schedule-session">Invited Talk 3</span></div>
   <div class="schedule-row is-feature"><span class="schedule-time">16:00 – 16:30</span><span class="schedule-session">Invited Talk 4</span></div>
   <div class="schedule-row is-quiet"><span class="schedule-time">16:30 – 16:45</span><span class="schedule-session">Break</span></div>
@@ -148,6 +172,3 @@ The workshop runs for a full day and features an opening keynote, invited talks,
   <div class="schedule-row is-quiet"><span class="schedule-time">17:45 – 18:00</span><span class="schedule-session">Closing Remarks</span></div>
 </div>
 
-### Virtual Access to Materials
-
-While the workshop will be held as an in-person event, core material and outcomes will be made available virtually for access beyond the conference days. All posters will be provided in digital form on this website, which will be maintained long after the workshop, alongside any additional material such as video recordings. A summarizing blog post of the panel discussion will preserve its key arguments. For those unable to attend, e.g., due to visa issues or other exceptional personal circumstances, we will offer help to still show the poster, and otherwise host and promote a recorded video of the authors.
