@@ -26,18 +26,21 @@ latest_posts:
 ---
 
 <style>
-  /* Let the page content flow around the logo instead of stacking below it. */
   .profile.float-right {
-    float: right !important;
     width: clamp(180px, 28%, 260px);
     margin: 0.35rem 0 1rem 1.5rem;
+  }
+  .profile.float-right img {
+    box-shadow: none;
+    border-radius: 0;
+    filter: drop-shadow(0 2px 6px rgba(0, 0, 0, 0.22));
   }
   .profile.float-right .more-info {
     text-align: center;
   }
   @media (max-width: 575px) {
     .profile.float-right {
-      float: none !important;
+      float: none;
       width: 70%;
       margin: 0 auto 1.25rem;
     }
@@ -77,6 +80,8 @@ The workshop aims to produce progress on four concrete problems:
   }
 </style>
 
+<!-- The theme's scripts mark every table's parent as scrollable; this wrapper keeps that off the page container, where it would stop text from flowing around the logo. -->
+<div class="dates-table">
 <table>
   <thead>
     <tr><th style="text-align: left">Milestone</th><th style="text-align: left">Date</th><th style="text-align: left">Countdown</th></tr>
@@ -88,6 +93,7 @@ The workshop aims to produce progress on four concrete problems:
     <tr><td><strong>Workshop day</strong></td><td><strong>ICLR 2027</strong> — San Francisco</td><td class="countdown"></td></tr>
   </tbody>
 </table>
+</div>
 
 <script>
   document.querySelectorAll("td.countdown[data-until]").forEach(function (cell) {

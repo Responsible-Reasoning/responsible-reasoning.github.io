@@ -18,6 +18,8 @@ The **First Workshop on Responsible Reasoning in the Wild** invites submissions 
   }
 </style>
 
+<!-- The theme's scripts mark every table's parent as scrollable; this wrapper keeps that off the page container. -->
+<div class="dates-table">
 <table>
   <thead>
     <tr><th style="text-align: left">Milestone</th><th style="text-align: left">Date</th><th style="text-align: left">Countdown</th></tr>
@@ -29,6 +31,7 @@ The **First Workshop on Responsible Reasoning in the Wild** invites submissions 
     <tr><td><strong>Workshop day</strong></td><td><strong>ICLR 2027</strong> — San Francisco</td><td class="countdown"></td></tr>
   </tbody>
 </table>
+</div>
 
 <script>
   document.querySelectorAll("td.countdown[data-until]").forEach(function (cell) {
