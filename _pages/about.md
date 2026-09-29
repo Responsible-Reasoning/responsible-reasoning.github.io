@@ -25,6 +25,25 @@ latest_posts:
   limit: 3 # leave blank to include all the blog posts
 ---
 
+<style>
+  /* Let the page content flow around the logo instead of stacking below it. */
+  .profile.float-right {
+    float: right !important;
+    width: clamp(180px, 28%, 260px);
+    margin: 0.35rem 0 1rem 1.5rem;
+  }
+  .profile.float-right .more-info {
+    text-align: center;
+  }
+  @media (max-width: 575px) {
+    .profile.float-right {
+      float: none !important;
+      width: 70%;
+      margin: 0 auto 1.25rem;
+    }
+  }
+</style>
+
 > **Join the effort towards responsible reasoning architectures, pushing the frontiers of trustworthy AI in the wild.**
 
 The **First Workshop on Responsible Reasoning in the Wild** will be held as an in-person workshop at the **International Conference on Learning Representations (ICLR) 2027** in San Francisco, CA, USA. It brings together researchers working on reasoning in large language models, interpretability, robustness and generalization, safety and alignment, and evaluation — organized not around any single methodological tradition, but around a guiding question: **what does it take for a reasoning system to warrant the responsibility it is given in deployment?**
