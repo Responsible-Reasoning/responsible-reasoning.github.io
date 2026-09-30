@@ -1,6 +1,7 @@
 ---
 layout: about
 title: Home
+title_prefix: "Proposal: "
 permalink: /
 
 profile:
