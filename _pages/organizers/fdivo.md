@@ -1,5 +1,5 @@
 **Felix Divo** _(Corresponding Organizer)_ conducts research as a PhD candidate in the Artificial Intelligence and Machine Learning Lab at TU Darmstadt, advised by Prof. Kristian Kersting. He investigates how generative time series models can reason reliably under real-world conditions. In the past, he published papers at NeurIPS, JMLR, IEEE/RSJ IROS, CoRL, and TMLR on topics including explainable AI, neural Granger causality, and explicit reasoning for neural models. He attended multiple NeurIPS workshops and served as a panelist. He served as a reviewer for JMLR, MLJ, NeurIPS, ICLR, ICML, IEEE/RSJ IROS, AISTATS, AAAI, TKDE, xAI, and various workshops.
 
-[Website](https://www.aiml.informatik.tu-darmstadt.de/people/fdivo/)
+[Website](https://felix.divo.link/)
 
 Contact: [felix.divo@tu-darmstadt.de](mailto:felix.divo@tu-darmstadt.de)
