@@ -1,1 +1,3 @@
 **Simon Kohaut** is a PhD candidate at the Artificial Intelligence and Machine Learning Lab at TU Darmstadt, advised by Prof. Kristian Kersting and co-supervised by Julian Eggert at Honda Research Institute EU. His research focuses on trustworthy autonomous systems, combining neuro-symbolic and reactive approaches for probabilistic modeling across perception, prediction, planning, and control tasks. He has published in IEEE ITSC, IEEE/RSJ IROS, IEEE Transactions on ITS, IEEE ICUAS, ACM JATS, CoRL, and DMLR, and has served as a reviewer for IEEE ITSC, IEEE/RSJ IROS, CoRL, AAAI, AISTATS, NeurIPS, ICML, and ICLR.
+
+[Website](https://www.aiml.informatik.tu-darmstadt.de/people/skohaut/)
