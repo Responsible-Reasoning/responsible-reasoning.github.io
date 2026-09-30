@@ -16,3 +16,9 @@
     -webkit-hyphens: manual;
   }
 }
+
+// A body line box has ~5px of leading above its capitals, so a photo floated
+// next to text looks higher than the text; shift it down to the cap height.
+.profile {
+  margin-top: 0.3125rem;
+}
