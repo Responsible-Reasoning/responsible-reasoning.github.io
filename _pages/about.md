@@ -38,13 +38,6 @@ latest_posts:
   .profile.float-right .more-info {
     text-align: center;
   }
-  article > .clearfix > p,
-  article > .clearfix > ol > li,
-  article > .clearfix > blockquote > p {
-    text-align: justify;
-    hyphens: auto;
-    -webkit-hyphens: auto;
-  }
   @media (max-width: 575px) {
     .profile.float-right {
       float: none;

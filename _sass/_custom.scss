@@ -1,0 +1,18 @@
+// Justified running text. Justification only affects wrapped lines, so short
+// one-line items stay as they are; hyphenation keeps word gaps even in the
+// narrow columns beside floated images.
+.post article {
+  p,
+  li {
+    text-align: justify;
+    hyphens: auto;
+    -webkit-hyphens: auto;
+  }
+
+  .more-info p,
+  .schedule p {
+    text-align: inherit;
+    hyphens: manual;
+    -webkit-hyphens: manual;
+  }
+}
