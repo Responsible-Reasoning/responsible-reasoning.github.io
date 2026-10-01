@@ -1,7 +1,6 @@
 ---
 layout: about
 title: Home
-title_prefix: "Proposal: "
 permalink: /
 
 profile:
@@ -9,7 +8,7 @@ profile:
   image: logo.png
   image_circular: false # crops the image to make it circular
   more_info: >
-    <p><b>ICLR 2027</b></p>
+    <p><b>Proposed for ICLR 2027</b></p>
     <p>San Francisco, CA, USA</p>
 
 selected_papers: false # includes a list of papers marked as "selected={true}"
@@ -50,7 +49,7 @@ latest_posts:
 
 > **Join the effort towards responsible reasoning architectures, pushing the frontiers of trustworthy AI in the wild.**
 
-The **First Workshop on Responsible Reasoning in the Wild** will be held as an in-person workshop at the **International Conference on Learning Representations (ICLR) 2027** in San Francisco, CA, USA. It brings together researchers working on reasoning in large language models, interpretability, robustness and generalization, safety and alignment, and evaluation — organized not around any single methodological tradition, but around a guiding question: **what does it take for a reasoning system to warrant the responsibility it is given in deployment?**
+The **First Workshop on Responsible Reasoning in the Wild** will be held as an in-person workshop at the **International Conference on Learning Representations (ICLR) 2027** in San Francisco, CA, USA. It brings together researchers working on reasoning in large language models, interpretability, robustness and generalization, safety and alignment, and evaluation. It is organized not around any single methodological tradition, but around a guiding question: **what does it take for a reasoning system to warrant the responsibility it is given in deployment?**
 
 We invite contributions through our [Call for Papers](/cfp/), and we look forward to welcoming you at ICLR 2027.
 
